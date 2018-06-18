@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-class TensorflowExployer:
+class TensorflowExplorer:
 
     version = tf.__version__
     classifiers = []
@@ -32,6 +32,6 @@ class TensorflowExployer:
         print("  There are", self.optimizers.__len__(), "available Optimizers: ", self.optimizers)
 
 
-tf_exployer = TensorflowExployer()
-print(tf_exployer.tensorflow_overview())
-del tf_exployer
+tf_explorer = TensorflowExplorer()
+print(tf_explorer.tensorflow_overview())
+del tf_explorer
